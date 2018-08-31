@@ -21,10 +21,10 @@ Add the tag ``<hv>`` *(html variable)* with an ``key`` attribute that points tow
 ```
 **JavaScript**
 ```
-    place = "World";
-    setTimeout(function() {
-        place = "Universe";
-    }, 1000);
+place = "World";
+setTimeout(function() {
+    place = "Universe";
+}, 1000);
 ```
 
 ### Example 2:
