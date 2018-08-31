@@ -28,7 +28,7 @@ function hv_loop() {
                     var tagDefault = htmlTags[j].getAttribute("default");
 
                     if (tagKey == key) {
-                        if (val != null && val != undefined && val != "") {
+                        if (val != null && val != undefined && val.toString().trim() != "") {
                             if (htmlTags[j].innerHTML != val) {
                                 htmlTags[j].innerHTML = val;
                             }
