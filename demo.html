@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <script src="main.js"></script>
+        <title>HTML Variables</title>
+    </head>
+    <body>
+        <p>This is an amazing demo showing up to <hv key="test">0</hv> different uses of HTML Variables :D</p>
+    </body>
+
+    <script type="text/javascript">
+        test = 0;
+        var max = 100;
+
+        function loop() {
+            setTimeout(function () {
+
+                if (test < max) {
+                    test++;
+                }
+
+                loop();
+            }, 100);
+        }
+        loop();
+    </script>
+</html>
