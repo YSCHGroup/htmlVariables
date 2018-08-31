@@ -5,14 +5,14 @@
 **Download** or **Reference** to the cdn: ```<script src="https://cdn.rawgit.com/YSCHGroup/htmlVariables/b2104873/main.js"></script>```
 
 # Usage
-#### Basics
-Add the tag ``hv`` *(html variable)* with an ``key`` attribute that points towards an global JavaScript variable. This tag will instantly update it's value/text/inner html when the variable change at any time.
+### Basics
+Add the tag ``<hv>`` *(html variable)* with an ``key`` attribute that points towards an global JavaScript variable. This tag will instantly update it's value/text/inner html when the variable change at any time.
 
-#### Attributes
+### Attributes
 * ``key``: Point the tag to a JavaScript variable. 
 * ``default``: Set a default value if the variable is null, undefined or empty *("")*. 
 
-#### Example 1:
+### Example 1:
 **HTML**
 ```
 <body>
@@ -27,7 +27,7 @@ Add the tag ``hv`` *(html variable)* with an ``key`` attribute that points towar
     }, 1000);
 ```
 
-#### Example 2:
+### Example 2:
 **HTML**
 ```
 <body>
